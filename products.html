@@ -155,7 +155,16 @@
         <script src="main.js"></script>
         <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://kit.fontawesome.com/5c75379b15.js" crossorigin="anonymous"></script>
-
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
 </body>
 
 </html>
