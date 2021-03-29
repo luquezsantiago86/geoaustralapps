@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Geoaustral Apps</title>
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/dist/images/favicon.png" />
+    <link href="assets/dist/css/product.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/dist/css/stylesheet.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <div class="logoDiv">
+            <img src="assets/dist/images/logo_2.png" class='logo'>
+        </div>
+        <a href="./rthrth.html"> </a>
+        <a href="./sbvdf.html"></a>
+        <a href="./features.html">Home</a>
+        <a href="./whatWeDo.html">About Us</a>
+        <a href="./products.html">Products & Services</a>
+        <a href="./partnership.html">Who Trust Us</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <main class="container">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Products & Services</h1>
+            <!-- <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p> -->
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 fw-normal">Software Development</h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1> -->
+                        <ul class="list-group list-group-flush mt-3 mb-4">
+                            <!-- <hr class="rounded"> -->
+                            <i class="fas fa-laptop-code fa-6x"></i>
+                            <!-- <hr class="rounded"> -->
+                            <li class="list-group-item">Web & Desktops Apps</li>
+                            <li class="list-group-item">Quick software delivery </li>
+                            <li class="list-group-item">Competitive prices </li>
+                            <li class="list-group-item">Bespoke Plans</li>
+                        </ul>
+                        <!-- <button id="devBtn" type="button" href="./development.html" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Learn more</button> -->
+                        <button id="devBtn" type="button" href="./modals/developmentServices.html" class="w-100 btn btn-lg btn-outline-primary">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="devModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 fw-normal">GPR Tracker</h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1> -->
+                        <img src="./assets/dist/images/gprTracker/box.png" id="gprTrackerBox">
+
+                        <ul class="list-group list-group-flush mt-3 mb-4">
+
+                            <li class="list-group-item">Realtime geoposition</li>
+                            <li class="list-group-item">Raster Images</li>
+                            <!-- <li class="list-group-item">Multiple projects</li> -->
+                            <!-- <li class="list-group-item">Multilayer</li> -->
+                        </ul>
+                        <!-- <a href="./gprTracker.html"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Learn more</button></a> -->
+                        <button id="gprTrackerBtn" type="button" href="./modals/gprTracker.html" class="w-100 btn btn-lg btn-outline-primary">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 fw-normal">SGD Cloud </h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1> -->
+                        <img src="./assets/dist/images/tomography/box.png" id="gprTrackerBox">
+                        <ul class="list-group list-group-flush mt-3 mb-4">
+                            <li class="list-group-item">Tomograpy</li>
+                            <li class="list-group-item">VES Data</li>
+                            <li class="list-group-item">Cloud Data</li>
+                            <li class="list-group-item">Volume Calculator</li>
+                        </ul>
+                        <!-- <a href="./gprTracker.html"><button type="button" class="w-100 btn btn-lg btn-outline-primary">Learn more</button></a> -->
+                        <button id="tomographyBtn" type="button" href="./modals/tomography.html" class="w-100 btn btn-lg btn-outline-primary">Learn more</button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 fw-normal">GeoData Cloud Service</h4>
+                    </div>
+                    <div class="card-body">
+                        
+                        <img src="./assets/dist/images/tomography/box.png" id="gprTrackerBox">
+                        <ul class="list-group list-group-flush mt-3 mb-4">
+                            <li class="list-group-item">Tomograpy</li>
+                            <li class="list-group-item">VES Data</li>
+                            <li class="list-group-item">Cloud Data</li>
+                            <li class="list-group-item">Volume Calculator</li>
+                        </ul>
+                        
+                        <button id="tomographyBtn" type="button" href="./modals/tomography.html" class="w-100 btn btn-lg btn-outline-primary">Learn more</button>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="col">
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header">
+                        <h4 class="my-0 fw-normal">Oil & Gas Reservoir Consulting</h4>
+                    </div>
+                    <div class="card-body">
+
+                        <img src="./assets/dist/images/tomography/box.png" id="gprTrackerBox">
+                        <ul class="list-group list-group-flush mt-3 mb-4">
+                            <li class="list-group-item">Tomograpy</li>
+                            <li class="list-group-item">VES Data</li>
+                            <li class="list-group-item">Cloud Data</li>
+                            <li class="list-group-item">Volume Calculator</li>
+                        </ul>
+
+                        <button id="tomographyBtn" type="button" href="./modals/tomography.html" class="w-100 btn btn-lg btn-outline-primary">Learn more</button>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+        <footer class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <footer class="mt-auto text-black-50">
+                        <hr class="rounded">
+                        <small>Registered Name: Geoaustrall Apps Ltd.<br> </small>
+                        <small>Company Number: 13237739</small>
+                        <small class="d-block mb-3 text-muted">2021</small>
+                    </footer>
+                </div>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+        <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/5c75379b15.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
