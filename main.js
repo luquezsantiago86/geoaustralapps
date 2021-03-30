@@ -10,6 +10,12 @@ $('#devContact').on('click', function(e) {
 
 });
 
+$('#dashboardingBtn').on('click', function(e) {
+    e.preventDefault();
+    $('#devModal').modal('show').find('.modal-content').load($(this).attr('href'));
+
+});
+
 $('#gprTrackerBtn').on('click', function(e) {
     e.preventDefault();
     $('#devModal').modal('show').find('.modal-content').load($(this).attr('href'));

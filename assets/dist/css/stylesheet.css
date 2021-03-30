@@ -296,3 +296,14 @@ body {
     text-decoration: none;
     color: rgb(30, 190, 165)
 }
+
+
+/* Products */
+
+.containerProducts {
+    /* margin: 50px; */
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* background-color: #4CAF50; */
+}
